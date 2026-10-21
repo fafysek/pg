@@ -23,7 +23,7 @@ def my_zip(*iterables):
         value = []
         for iterable in iterables:
             value.append(iterable[i])
-        vysledek.append((tuple (radek))
+        vysledek.append(tuple (radek))
         i += 1
     return vysledek
 
